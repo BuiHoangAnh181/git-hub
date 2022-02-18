@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{ box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {width: 400px;height: 600px;margin: 0 auto;}
+.navi,.header,.bodyarea,.footer,.space,.logo {
+    border:  black;
+    text-transform: capitalize;
+margin: 3px;
+background-color:  #c0c0c0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: larger;
+}
+.dad {height: 70%;
+display: flex;
+flex-direction: row;}
+.mum {height: 15%;
+display: flex;
+flex-direction: row;}
+.logo {width: 30%;
+margin-right: 0;}
+.space {width: 70%;
+margin-left: 0;}
+.dad1 {width: 30%;}
+.navi {height:  20%;
+background-color: white;
+margin-bottom: 15px;}
+.space2 {height: 75%;}
+.dad2 {width: 70%;}
+.header {height: 20%;
+margin-bottom: 15px;}
+.bodyarea {height: 75%;
+    
+}
+.footer {height: 10%;
+margin-top: 20px;
+}
+    </style>
+</head>
+<body>
+    
+        <div class="mum">
+            <div class="logo">logo</div>
+            <div class="space"></div>
+        </div>  
+            <div class="dad">
+                <div class="dad1">
+                <div class="navi">side bar navigation</div>
+                <div class="space2"></div>
+                </div>  
+                <div class="dad2">
+                    <div class="header">header / banner</div>
+                    <div class="bodyarea">body area</div>
+                </div>
+            </div>
+    <div class="footer">footer</div>
+   
+</div>
+    
+</body>
+</html>
